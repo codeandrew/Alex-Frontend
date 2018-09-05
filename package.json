@@ -1,0 +1,19 @@
+{
+  "name": "html-template",
+  "version": "1.0.0",
+  "description": "Html Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Andrew Fuentes",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^1.9.1",
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "popper.js": "^1.14.4"
+  }
+}
