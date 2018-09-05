@@ -14,6 +14,12 @@ npm run sass
 ```
 live-server --open=public
 ```
+> Finally, we start the development server.
+
+### Dependencies
+- Bootstrap 4
+- Jquery
+- Popper.js
 
 Credits to this tutorial
 ```
