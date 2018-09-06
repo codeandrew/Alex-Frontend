@@ -1,0 +1,21 @@
+.nav-header {
+  height: rule(7); }
+  .nav-header .navbrand {
+    float: left; }
+
+.navbar-brand {
+  margin-right: 3rem !important; }
+
+.navbar-toggler {
+  border: none !important; }
+
+.navbar-nav {
+  display: inline-block;
+  @extends .shadow; }
+  .navbar-nav .nav-link {
+    display: inline-block;
+    margin-right: rule(1);
+    padding: rule(2) 0; }
+
+.navbar-dark {
+  background-color: #000 !important; }
