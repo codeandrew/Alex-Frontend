@@ -1,6 +1,5 @@
-# Static HTML Template
-> Static HTML Boilerplat in 2018 for faster testing
-> Simple web application to compile its SCSS code into CSS code.
+# LEGG APP 
+> LEGG Mobile UI
 
 ## First install
 - npm install
