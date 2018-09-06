@@ -1,0 +1,28 @@
+.nav-header{
+  height : rule(7);
+  .navbrand {
+    float : left;
+    // margin-top : rule(1);
+  }
+  //background-color : #f8f8f8;
+}
+.navbar-brand {
+  margin-right: 3rem !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-nav {
+  display: inline-block;
+  .nav-link {
+    display: inline-block;
+    margin-right: rule(1);
+    padding: rule(2) 0;
+  }
+
+}
+.navbar-dark {
+  background-color: #000 !important;
+  @extend %shadow;
+}

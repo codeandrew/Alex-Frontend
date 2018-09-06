@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+
+$font-base : 8px;
+// $heading : ( h1, h2, h3, h4, h5, h6)
+// @media screen and ( max-width : ){
+//   @each $h in $heading {
+//     $h : $font-base * $i;
+//   }
+// }
+
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  @include center-flex;
+}
+
+@mixin font( $size, $weight: 300, $color : $primary-font-color, $line-height : calc($size * 1.5 ) ){
+  font : {
+    size : $size;
+    weight : $weight;
+  }
+  color : $color;
+  line-height: $line-height;
+}
+
+$breakpoints: (
+    "phone":        400px,
+    "phone-wide":   480px,
+    "phablet":      560px,
+    "tablet-small": 640px,
+    "tablet":       768px,
+    "tablet-wide":  1024px,
+    "desktop":      1248px,
+    "desktop-wide": 1440px
+);
+
+@mixin mq($width, $type: min) {
+    @if map_has_key($breakpoints, $width) {
+        $width: map_get($breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: $gray;
+  @include font(rule(2));
+}
+
+* {
+  transition: .7s;
+  margin : 0;
+  padding : 0;
+}
+
+#app {
+ font-family: 'Avenir', Helvetica, Arial, sans-serif;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ text-align: center;
+ color: #2c3e50;
+}

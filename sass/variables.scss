@@ -1,0 +1,19 @@
+//fonts
+$raleway : 'Raleway', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$ubuntu: 'Ubuntu', sans-serif;
+
+
+//colors
+
+$dirty-white : #f8f8f8;
+$gray : #eee;
+$primary-font-color : rgba(0, 0,0, 0.7);
+
+//functions
+$pt : 8px;
+
+@function rule($num) {
+  @return calc( #{ $pt } * #{ $num })
+}

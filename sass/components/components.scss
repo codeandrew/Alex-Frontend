@@ -1,0 +1,41 @@
+.article {
+  padding: rule(5) 0;
+
+  ul {
+    text-align: center;
+  }
+}
+
+$sizes : (
+  'xl',
+  'lg',
+  'md',
+  'sm'
+);
+
+@each $size in $sizes through 4{
+  .section-pad-#{$size}{
+    @debug $size;
+    padding : rule(10 - 3 ) 0;
+    @include font(rule(1))
+  }
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+%shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-holder {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.faded-dark-bg {
+      background-image: linear-gradient(180deg, rgba(0, 0, 0, .37), rgba(0, 0, 0, .37));
+}
