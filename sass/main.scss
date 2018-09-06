@@ -1,25 +1,8 @@
-$myfont: Georgia 1.1em;
-$table_head_col: #ccc;
-$table_row_col: #eee;
-$table_bor_col: #eee;
-$container_width: 700px;
-$first_col_width: 150px;
-
-div.container {
-    margin: auto;
-    font: $myfont;
-    width: $container_width;
-}
-
-table {
-
-    tr:nth-child(odd) {background: $table_row_col}
-
-    td:first-child {width: $first_col_width}
-
-    th {
-        background-color: $table_head_col;
-    }
-
-    border: 1px solid $table_bor_col;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Open+Sans:300,400,600,700,800|Raleway:300,400,500,600,700,800|Ubuntu:300,400,500,700');
+@import 'reset';
+@import 'variables';
+@import 'components/global';
+@import 'components/components';
+@import 'components/nav';
+@import 'components/dashboard';
+@import 'components/carousel';
