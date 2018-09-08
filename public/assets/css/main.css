@@ -66,6 +66,10 @@ html, body {
   text-align: center;
   color: #2c3e50; }
 
+.logo {
+  width: calc( 8px * 26);
+  height: auto; }
+
 .article {
   padding: calc( 8px * 5) 0; }
   .article ul {
