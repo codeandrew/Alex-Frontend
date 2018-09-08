@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Open+Sans:300,400,600,700,800|Raleway:300,400,500,600,700,800|Ubuntu:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -50,7 +49,8 @@ html, body {
   width: 100%;
   background-color: #eee;
   font-size: calc( 8px * 2);
-  font-weight: 300;
+  font-weight: 400;
+  font-family: "Lato", sans-serif !important;
   color: rgba(0, 0, 0, 0.7);
   line-height: calc($size * 1.5); }
 
@@ -75,6 +75,7 @@ html, body {
   padding: calc( 8px * 7) 0;
   font-size: calc( 8px * 1);
   font-weight: 300;
+  font-family: "Lato", sans-serif !important;
   color: rgba(0, 0, 0, 0.7);
   line-height: calc($size * 1.5); }
 
@@ -82,6 +83,7 @@ html, body {
   padding: calc( 8px * 7) 0;
   font-size: calc( 8px * 1);
   font-weight: 300;
+  font-family: "Lato", sans-serif !important;
   color: rgba(0, 0, 0, 0.7);
   line-height: calc($size * 1.5); }
 
@@ -89,6 +91,7 @@ html, body {
   padding: calc( 8px * 7) 0;
   font-size: calc( 8px * 1);
   font-weight: 300;
+  font-family: "Lato", sans-serif !important;
   color: rgba(0, 0, 0, 0.7);
   line-height: calc($size * 1.5); }
 

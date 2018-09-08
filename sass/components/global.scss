@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
 
 $font-base : 8px;
-// $heading : ( h1, h2, h3, h4, h5, h6)
-// @media screen and ( max-width : ){
-//   @each $h in $heading {
-//     $h : $font-base * $i;
-//   }
-// }
 
 @mixin center-flex {
   display: flex;
@@ -22,6 +16,7 @@ $font-base : 8px;
   font : {
     size : $size;
     weight : $weight;
+    family : $lato !important;
   }
   color : $color;
   line-height: $line-height;
@@ -54,7 +49,7 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: $gray;
-  @include font(rule(2));
+  @include font(rule(2), 400);
 }
 
 * {
