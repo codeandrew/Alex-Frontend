@@ -1,0 +1,6 @@
+.dashboard main .banner {
+  height: rule(32);
+  width: 100%;
+  display: block; }
+  .dashboard main .banner img {
+    height: 100%; }

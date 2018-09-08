@@ -163,14 +163,9 @@ html, body {
   .sidenav a {
     font-size: calc( 8px * 2); } }
 
-.dashboard {
-  background-color: red; }
-  .dashboard main {
-    background-color: red; }
-    .dashboard main .banner {
-      height: calc( 8px * 32);
-      width: 100%;
-      display: block; }
-      .dashboard main .banner img {
-        width: auto;
-        height: 100%; }
+.dashboard main .banner {
+  height: calc( 8px * 32);
+  width: 100%;
+  display: block; }
+  .dashboard main .banner img {
+    height: 100%; }
