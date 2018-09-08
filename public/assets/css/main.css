@@ -204,3 +204,33 @@ footer.form {
 
 .dashboard footer img {
   padding: calc( 8px * 2); }
+
+.form h1 {
+  font-size: calc( 8px * 2);
+  font-weight: 600;
+  font-family: "Lato", sans-serif !important;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: calc($size * 1.5);
+  padding: calc( 8px * 2);
+  text-align: center;
+  text-transform: uppercase; }
+
+.form form {
+  padding: calc( 8px * 1); }
+  .form form label {
+    padding-bottom: calc( 8px * 1);
+    font-weight: 600; }
+  .form form input {
+    padding: 0;
+    outline: none !important;
+    border: none !important;
+      border-bottom: 1px solid #eee !important; }
+    .form form input:focus {
+      outline: none !important;
+      outline-color: transparent;
+      outline-style: none; }
+
+input[type="text"], input[type="text"]:focus {
+  outline: 0;
+  border: none;
+  box-shadow: none; }

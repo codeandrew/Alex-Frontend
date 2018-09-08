@@ -1,0 +1,40 @@
+.form {
+
+  h1 {
+    @include font(rule(2), 600);
+    padding: rule(2);
+    text-align: center;
+    text-transform: uppercase;
+  }
+  form {
+    padding: rule(1);
+
+    label {
+      padding-bottom:  rule(1);
+      font-weight: 600;
+    }
+
+    input {
+      padding: 0;
+      outline: none !important;
+      border: none !important  {
+        bottom: 1px solid $gray !important;
+      }
+      &:focus {
+        outline: none !important;
+        outline-color: transparent;
+        outline-style: none;
+      }
+    }
+  }
+  &-1-contact{
+
+  }
+
+}
+
+input[type="text"], input[type="text"]:focus{
+  outline: 0;
+  border:none;
+  box-shadow:none;
+}
