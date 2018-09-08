@@ -4,3 +4,8 @@
   display: block; }
   .dashboard main .banner img {
     height: 100%; }
+
+.dashboard main .services .col {
+  height: rule(18);
+  border: 1px solid;
+    border-color: black; }

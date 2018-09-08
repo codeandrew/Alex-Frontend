@@ -47,7 +47,7 @@ table {
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #eee;
+  background-color: white;
   font-size: calc( 8px * 2);
   font-weight: 400;
   font-family: "Lato", sans-serif !important;
@@ -164,8 +164,22 @@ html, body {
     font-size: calc( 8px * 2); } }
 
 .dashboard main .banner {
-  height: calc( 8px * 32);
+  height: calc( 8px * 25);
   width: 100%;
   display: block; }
   .dashboard main .banner img {
     height: 100%; }
+
+.dashboard main .services {
+  color: rgba(0, 0, 0, 0.7); }
+  .dashboard main .services .col {
+    height: calc( 8px * 16);
+    border: 1px solid;
+      border-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .dashboard main .services .col i, .dashboard main .services .col svg {
+      color: green;
+      margin-bottom: calc( 8px * 1); }

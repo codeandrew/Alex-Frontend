@@ -48,7 +48,7 @@ $breakpoints: (
 html, body {
   height: 100%;
   width: 100%;
-  background-color: $gray;
+  background-color: white;
   @include font(rule(2), 400);
 }
 

@@ -1,13 +1,30 @@
 .dashboard{
   main {
     .banner{
-      height: rule(32);
+      height: rule(25);
       width: 100%;
       display: block;
 
       img {
         // width: auto;
         height: 100%;
+      }
+    }
+
+    .services {
+      color : $primary-font-color;
+      .col {
+        height : rule(16);
+        border : 1px solid{
+          color : $gray;
+        }
+        @include center-flex;
+        flex-direction: column;
+
+        i, svg {
+          color : $secondary-font-color;
+          margin-bottom: rule(1);
+        }
       }
     }
   }
