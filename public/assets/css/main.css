@@ -75,30 +75,6 @@ html, body {
   .article ul {
     text-align: center; }
 
-.section-pad-xl, lg, md, sm {
-  padding: calc( 8px * 7) 0;
-  font-size: calc( 8px * 1);
-  font-weight: 300;
-  font-family: "Lato", sans-serif !important;
-  color: rgba(0, 0, 0, 0.7);
-  line-height: calc($size * 1.5); }
-
-.section-pad-through {
-  padding: calc( 8px * 7) 0;
-  font-size: calc( 8px * 1);
-  font-weight: 300;
-  font-family: "Lato", sans-serif !important;
-  color: rgba(0, 0, 0, 0.7);
-  line-height: calc($size * 1.5); }
-
-.section-pad-4 {
-  padding: calc( 8px * 7) 0;
-  font-size: calc( 8px * 1);
-  font-weight: 300;
-  font-family: "Lato", sans-serif !important;
-  color: rgba(0, 0, 0, 0.7);
-  line-height: calc($size * 1.5); }
-
 .center {
   text-align: center;
   margin: 0 auto; }
@@ -106,12 +82,15 @@ html, body {
 .navbar-dark {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
-.img-holder img {
-  width: 100%;
-  height: auto; }
-
 .faded-dark-bg {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)); }
+
+.splash-screen {
+  display: flex; }
+  .splash-screen .container .splash {
+    height: calc( 8px * 14);
+    width: auto;
+    padding-bottom: calc( 8px * 2); }
 
 .nav-header {
   height: calc( 8px * 7); }

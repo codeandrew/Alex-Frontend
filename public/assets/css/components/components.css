@@ -1,0 +1,18 @@
+.article {
+  padding: rule(5) 0; }
+  .article ul {
+    text-align: center; }
+
+.center {
+  text-align: center;
+  margin: 0 auto; }
+
+.faded-dark-bg {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)); }
+
+.splash-screen {
+  display: flex; }
+  .splash-screen .container .splash {
+    height: rule(14);
+    width: auto;
+    padding-bottom: rule(2); }
