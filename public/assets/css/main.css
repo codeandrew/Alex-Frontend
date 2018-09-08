@@ -92,6 +92,11 @@ html, body {
     width: auto;
     padding-bottom: calc( 8px * 2); }
 
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important; }
+
 .nav-header {
   height: calc( 8px * 7); }
   .nav-header .navbrand {
@@ -152,6 +157,25 @@ html, body {
     padding-top: calc( 8px * 2); }
   .sidenav a {
     font-size: calc( 8px * 2); } }
+
+footer.form {
+  background-color: green;
+  height: calc( 8px * 7); }
+  footer.form .container-fluid {
+    height: 100%; }
+  footer.form .row {
+    display: flex;
+    height: 100%; }
+    footer.form .row .col {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      cursor: pointer; }
+      footer.form .row .col svg {
+        margin: 0 calc( 8px * 1);
+        color: white; }
 
 .dashboard .sidenav {
   background-color: black !important; }
