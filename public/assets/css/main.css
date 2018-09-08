@@ -113,6 +113,13 @@ html, body {
 .navbar-dark {
   background-color: #000 !important; }
 
+.navbar {
+  background-color: green; }
+  .navbar a, .navbar .navbar-toggler {
+    color: white; }
+  .navbar .app span {
+    padding-top: calc( 8px * 0.4); }
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -120,7 +127,7 @@ html, body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: green;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px; }
@@ -128,7 +135,7 @@ html, body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.3s; }
     .sidenav a:hover {
@@ -145,6 +152,9 @@ html, body {
     padding-top: calc( 8px * 2); }
   .sidenav a {
     font-size: calc( 8px * 2); } }
+
+.dashboard .sidenav {
+  background-color: black !important; }
 
 .dashboard main .banner {
   height: calc( 8px * 25);
