@@ -268,16 +268,33 @@ footer.form {
   .form-3-overview .overview p {
     padding: calc( 8px * 1.5) 0; }
 
-.form-3-overview .camera {
-  position: absolute;
-  bottom: calc( 8px * 8);
-  right: calc( 8px * 1);
-  padding: calc( 8px * 2) calc( 8px * 2);
-  background-color: #ecf0f1;
-  border-radius: 50%;
-  color: black;
-  font-size: calc( 8px * 2.5);
-  font-weight: 300; }
+.form2-3-application label {
+  font-size: calc( 8px * 1.5); }
+
+.form .modal-content {
+  border-radius: calc( 8px * 2.5); }
+
+.form .modal-body {
+  text-align: center; }
+
+.form .modal-footer {
+  padding: 0; }
+  .form .modal-footer .row {
+    display: flex;
+    height: calc( 8px * 6);
+    border-bottom-left-radius: calc( 8px * 2);
+    border-bottom-right-radius: calc( 8px * 2); }
+    .form .modal-footer .row .col {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: green;
+      border: 0.5px solid #ecf0f1; }
+      .form .modal-footer .row .col:first-child {
+        border-bottom-left-radius: calc( 8px * 2); }
+    .form .modal-footer .row .ok {
+      border-bottom-right-radius: calc( 8px * 2);
+      font-weight: 600; }
 
 input[type="text"], input[type="text"]:focus {
   outline: 0;
@@ -294,3 +311,14 @@ select.minimal {
   border-radius: 0; }
   select.minimal:focus {
     border-color: green; }
+
+.form-3-overview .camera, .form2-3-application .camera {
+  position: absolute;
+  bottom: calc( 8px * 8);
+  right: calc( 8px * 1);
+  padding: calc( 8px * 2) calc( 8px * 2);
+  background-color: #ecf0f1;
+  border-radius: 50%;
+  color: black;
+  font-size: calc( 8px * 2.5);
+  font-weight: 300; }

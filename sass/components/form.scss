@@ -82,21 +82,52 @@
         padding : rule(1.5) 0;
       }
     }
-    .camera {
-      position: absolute;
-      bottom : rule(8);
-      right : rule(1);
-      padding : rule(2) rule(2);
-      background: {
-        color: $silver;
+    .camera{
+      @extend %camera;
+    }
+  }
+
+  &2-3-application {
+    label {
+      font : {
+        size : rule(1.5);
       }
-      border: {
-        radius : 50%;
+    }
+    .camera{
+      @extend %camera;
+    }
+  }
+
+  .modal-content {
+    border-radius: rule(2.5);
+  }
+  .modal-body {
+    text-align: center;
+  }
+
+  .modal-footer {
+    padding: 0;
+    .row {
+      display: flex;
+      height: rule(6);
+      border : {
+        bottom-left-radius: rule(2);
+        bottom-right-radius: rule(2);
       }
-      color:black;
-      font :{
-        size : rule(2.5);
-        weight : 300;
+
+      .col {
+        @include center-flex;
+        color : $primary-color;
+        border : .5px solid $silver;
+        &:first-child{
+          border-bottom-left-radius: rule(2);
+        }
+      }
+      .ok {
+        border-bottom-right-radius: rule(2);
+        font : {
+          weight : 600;
+        }
       }
     }
   }
@@ -123,5 +154,24 @@ select.minimal {
 
   &:focus {
     border-color: $primary-color;
+  }
+}
+
+
+%camera {
+  position: absolute;
+  bottom : rule(8);
+  right : rule(1);
+  padding : rule(2) rule(2);
+  background: {
+    color: $silver;
+  }
+  border: {
+    radius : 50%;
+  }
+  color:black;
+  font :{
+    size : rule(2.5);
+    weight : 300;
   }
 }
