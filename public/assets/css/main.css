@@ -236,7 +236,33 @@ footer.form {
       outline-color: transparent;
       outline-style: none; }
 
+.form-2-products p {
+  margin-bottom: calc( 8px * 2);
+  padding: 0 calc( 8px * 1); }
+
+.form-2-products form {
+  border-top: 1px solid #eee; }
+  .form-2-products form h1 {
+    text-align: left;
+    padding: calc( 8px * 0.5) calc( 8px * 0.5);
+    background-color: #eee; }
+  .form-2-products form h2 {
+    text-align: center;
+    padding: calc( 8px * 1.5);
+    font-weight: 600; }
+
 input[type="text"], input[type="text"]:focus {
   outline: 0;
   border: none;
   box-shadow: none; }
+
+select.minimal {
+  outline: 0;
+  width: 100%;
+  padding: calc( 8px * 1) 0;
+  background-color: white;
+  border-width: 0 0 1px;
+  border-color: #eee;
+  border-radius: 0; }
+  select.minimal:focus {
+    border-color: green; }
