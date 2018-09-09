@@ -24,64 +24,66 @@
     <a href="form-3-contact.html">overview</a>
     <a href="#">Contact</a>
   </div>
-  
-  <header>
-    <nav class="navbar">
-      <button class="navbar-toggler app" type="button" >
-        <span  onclick="openNav()" class="navbar-toggler-icon">&#9776;</span>
-      </button>
-      <a class="navbar-brand" href="#">LEGG</a>
-      <span></span>
-    </nav>
-  </header>
 
-  <main>
-    <h1> Contact Information (1/3)</h1>
+  <div class="app">
+    <header>
+      <nav class="navbar">
+        <button class="navbar-toggler app" type="button" >
+          <span  onclick="openNav()" class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <a class="navbar-brand" href="#">LEGG</a>
+        <span></span>
+      </nav>
+    </header>
 
-    <form >
-      <div class="form-group">
-        <label for="fname">First Name *</label>
-        <input type="text" class="form-control" id="fname">
-      </div>
+    <main>
+      <h1> Contact Information (1/3)</h1>
 
-      <div class="form-group">
-        <label for="lname">Last Name*</label>
-        <input type="text" class="form-control" id="lname">
-      </div>
+      <form >
+        <div class="form-group">
+          <label for="fname">First Name *</label>
+          <input type="text" class="form-control" id="fname">
+        </div>
 
-      <div class="form-group">
-        <label for="name">Company Name/Location *</label>
-        <input type="text" class="form-control" id="name">
-      </div>
+        <div class="form-group">
+          <label for="lname">Last Name*</label>
+          <input type="text" class="form-control" id="lname">
+        </div>
 
-      <div class="form-group">
-        <label for="email"> E-Mail *</label>
-        <input type="text" class="form-control" id="email">
-      </div>
+        <div class="form-group">
+          <label for="name">Company Name/Location *</label>
+          <input type="text" class="form-control" id="name">
+        </div>
 
-      <div class="form-group">
-        <label for="phone">Phone *</label>
-        <input type="text" class="form-control" id="phone">
-      </div>
+        <div class="form-group">
+          <label for="email"> E-Mail *</label>
+          <input type="text" class="form-control" id="email">
+        </div>
 
-    </form>
+        <div class="form-group">
+          <label for="phone">Phone *</label>
+          <input type="text" class="form-control" id="phone">
+        </div>
 
-  </main>
+      </form>
+    </main>
 
-  <footer class="form">
-    <div class="container-fluid">
-      <div class="row">
-        <span class="col" onclick="previous()">
-          <i class="fas fa-chevron-left"></i>
-          Previous
-        </span>
-        <span class="col" onclick="next()">
+    <footer class="form">
+      <div class="container-fluid">
+        <div class="row">
+          <span class="col" onclick="previous()">
+            <i class="fas fa-chevron-left"></i>
+            Previous
+          </span>
+          <span class="col" onclick="next()">
             Next
-          <i class="fas fa-chevron-right"></i>
-        </span>
+            <i class="fas fa-chevron-right"></i>
+          </span>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
+
 
   <!-- Popper.JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>

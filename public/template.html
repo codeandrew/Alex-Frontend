@@ -24,34 +24,39 @@
     <a href="#">Clients</a>
     <a href="#">Contact</a>
   </div>
-  <header>
-    <nav class="navbar">
-      <button class="navbar-toggler app" type="button" >
-        <span  onclick="openNav()" class="navbar-toggler-icon">&#9776;</span>
-      </button>
-      <a class="navbar-brand" href="#">LEGG</a>
-      <span></span>
-    </nav>
-  </header>
 
-  <div class="">
-    <h2> Body </h2>
+  <div class="app">
+
+    <header>
+      <nav class="navbar">
+        <button class="navbar-toggler app" type="button" >
+          <span  onclick="openNav()" class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <a class="navbar-brand" href="#">LEGG</a>
+        <span></span>
+      </nav>
+    </header>
+
+    <main>
+      <h1> body</h1>
+    </main>
+
+    <footer class="form">
+      <div class="container-fluid">
+        <div class="row">
+          <span class="col" onclick="previous()">
+            <i class="fas fa-chevron-left"></i>
+            Previous
+          </span>
+          <span class="col" onclick="next()">
+            Next
+            <i class="fas fa-chevron-right"></i>
+          </span>
+        </div>
+      </div>
+    </footer>
   </div>
 
-  <footer class="form">
-    <div class="container-fluid">
-      <div class="row">
-        <span class="col" onclick="previous()">
-          <i class="fas fa-chevron-left"></i>
-          Previous
-        </span>
-        <span class="col" onclick="next()">
-            Next
-          <i class="fas fa-chevron-right"></i>
-        </span>
-      </div>
-    </div>
-  </footer>
 
   <!-- Popper.JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
