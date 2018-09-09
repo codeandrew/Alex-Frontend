@@ -251,6 +251,12 @@ footer.form {
     padding: calc( 8px * 1.5);
     font-weight: 600; }
 
+.form-3-overview .overview {
+  padding: calc( 8px * 1);
+  border-bottom: 1px solid #eee; }
+  .form-3-overview .overview p {
+    padding: calc( 8px * 1.5) 0; }
+
 input[type="text"], input[type="text"]:focus {
   outline: 0;
   border: none;

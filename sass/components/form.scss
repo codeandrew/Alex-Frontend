@@ -53,6 +53,17 @@
     }
   }
 
+  &-3-overview {
+    .overview {
+      padding: rule(1);
+      border: {
+        bottom : 1px solid $gray;
+      }
+      p {
+        padding : rule(1.5) 0;
+      }
+    }
+  }
 }
 
 input[type="text"], input[type="text"]:focus{
