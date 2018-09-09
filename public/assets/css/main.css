@@ -85,7 +85,7 @@ html, body {
   text-align: center;
   margin: 0 auto; }
 
-.navbar-dark {
+.navbar-dark, .submit main .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .faded-dark-bg {
@@ -294,6 +294,19 @@ footer.form {
         border-bottom-left-radius: calc( 8px * 2); }
     .form .modal-footer .row .ok {
       border-bottom-right-radius: calc( 8px * 2);
+      font-weight: 600; }
+
+.submit main {
+  padding: calc( 8px * 2); }
+  .submit main .card {
+    text-align: center; }
+    .submit main .card img {
+      width: 100%;
+      height: auto;
+      padding: calc( 8px * 1); }
+    .submit main .card h2 {
+      padding-top: calc( 8px * 1);
+      font-size: calc( 8px * 2);
       font-weight: 600; }
 
 input[type="text"], input[type="text"]:focus {

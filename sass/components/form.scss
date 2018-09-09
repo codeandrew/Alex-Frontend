@@ -133,6 +133,30 @@
   }
 }
 
+.submit {
+  main {
+    padding :rule(2);
+
+    .card {
+      @extend %shadow;
+      text-align: center;
+
+      img {
+        width: 100%;
+        height: auto;
+        padding: rule(1);
+      }
+      h2 {
+        padding-top: rule(1);
+        font :  {
+          size : rule(2);
+          weight : 600;
+        }
+      }
+    }
+  }
+}
+
 input[type="text"], input[type="text"]:focus{
   outline: 0;
   border:none;
@@ -156,7 +180,6 @@ select.minimal {
     border-color: $primary-color;
   }
 }
-
 
 %camera {
   position: absolute;
