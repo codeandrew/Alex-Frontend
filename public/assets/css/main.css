@@ -103,6 +103,27 @@ html, body {
   -ms-flex-align: center !important;
   align-items: center !important; }
 
+footer.menu .row span, footer.menu .row a, footer.menu .row button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none; }
+  footer.menu .row span::-moz-focus-inner, footer.menu .row a::-moz-focus-inner, footer.menu .row button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
 .nav-header {
   height: calc( 8px * 7); }
   .nav-header .navbrand {
@@ -182,6 +203,32 @@ footer.form {
       footer.form .row .col svg {
         margin: 0 calc( 8px * 1);
         color: white; }
+
+footer.menu {
+  background-color: green;
+  height: calc( 8px * 14); }
+  footer.menu .container-fluid {
+    height: 100%; }
+  footer.menu .row {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc( 8px * 7); }
+    footer.menu .row span, footer.menu .row a, footer.menu .row button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      height: calc( 8px * 7);
+      width: 100%;
+      text-align: center;
+      border-top: 1px solid green;
+      border-bottom: 1px solid green; }
+      footer.menu .row span:hover, footer.menu .row a:hover, footer.menu .row button:hover {
+        color: red !important;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red; }
 
 .dashboard .sidenav {
   background-color: black !important; }
@@ -335,3 +382,15 @@ select.minimal {
   color: black;
   font-size: calc( 8px * 2.5);
   font-weight: 300; }
+
+.menu-settings .list {
+  padding: calc( 8px * 1); }
+  .menu-settings .list ul {
+    padding-top: calc( 8px * 1); }
+    .menu-settings .list ul li {
+      padding: calc( 8px * 1.5) 0;
+      color: rgba(0, 0, 0, 0.7);
+      border-bottom: 1px solid #ecf0f1;
+      font-weight: 600; }
+      .menu-settings .list ul li a {
+        color: rgba(0, 0, 0, 0.7); }

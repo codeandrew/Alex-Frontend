@@ -1,0 +1,29 @@
+.menu {
+  &-settings {
+    .list {
+      padding: rule(1);
+
+      ul {
+        padding-top: rule(1);
+
+        li {
+          padding: rule(1.5) 0;
+          color : $primary-font-color;
+          border : {
+            bottom : 1px solid $silver;
+          }
+          font : {
+            weight : 600;
+          }
+          a {
+            color : $primary-font-color;
+          }
+        }
+      }
+    }
+
+    footer {
+
+    }
+  }
+}

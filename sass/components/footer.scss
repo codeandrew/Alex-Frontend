@@ -21,3 +21,39 @@ footer.form {
     }
   }
 }
+
+footer.menu {
+  background-color: $primary-color;
+  height : rule(14);
+  .container-fluid {
+    height : 100%;
+  }
+  .row {
+    display : flex;
+    @include center-flex;
+    height : rule(7);
+
+    span, a, button {
+      @extend %reset-Button;
+      @include center-flex;
+      color : white;
+      height : rule(7);
+      width: 100%;
+      text-align: center;
+      border : {
+        top : 1px solid $primary-color;
+        bottom : 1px solid $primary-color;
+      }
+
+      &:hover {
+        color : red !important;
+        border : {
+          top : 1px solid red;
+          bottom : 1px solid red;
+        }
+      }
+
+    }
+
+  }
+}
