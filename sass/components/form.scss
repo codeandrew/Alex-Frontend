@@ -33,6 +33,25 @@
   }
 
   &-2-products {
+
+    .plus{
+      position: absolute;
+      top : rule(3);
+      right : rule(1);
+      padding : rule(1.5) rule(2.5);
+      background: {
+        color: $button-red;
+      }
+      border: {
+        radius : 50%;
+      }
+      color: white;
+      font :{
+        size : rule(4);
+        weight : 300;
+      }
+    }
+
     p {
       margin-bottom: rule(2);
       padding: 0 rule(1);

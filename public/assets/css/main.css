@@ -236,6 +236,17 @@ footer.form {
       outline-color: transparent;
       outline-style: none; }
 
+.form-2-products .plus {
+  position: absolute;
+  top: calc( 8px * 3);
+  right: calc( 8px * 1);
+  padding: calc( 8px * 1.5) calc( 8px * 2.5);
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-size: calc( 8px * 4);
+  font-weight: 300; }
+
 .form-2-products p {
   margin-bottom: calc( 8px * 2);
   padding: 0 calc( 8px * 1); }
