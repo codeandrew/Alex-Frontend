@@ -82,6 +82,23 @@
         padding : rule(1.5) 0;
       }
     }
+    .camera {
+      position: absolute;
+      bottom : rule(8);
+      right : rule(1);
+      padding : rule(2) rule(2);
+      background: {
+        color: $silver;
+      }
+      border: {
+        radius : 50%;
+      }
+      color:black;
+      font :{
+        size : rule(2.5);
+        weight : 300;
+      }
+    }
   }
 }
 

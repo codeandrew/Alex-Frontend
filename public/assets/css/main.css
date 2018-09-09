@@ -268,6 +268,17 @@ footer.form {
   .form-3-overview .overview p {
     padding: calc( 8px * 1.5) 0; }
 
+.form-3-overview .camera {
+  position: absolute;
+  bottom: calc( 8px * 8);
+  right: calc( 8px * 1);
+  padding: calc( 8px * 2) calc( 8px * 2);
+  background-color: #ecf0f1;
+  border-radius: 50%;
+  color: black;
+  font-size: calc( 8px * 2.5);
+  font-weight: 300; }
+
 input[type="text"], input[type="text"]:focus {
   outline: 0;
   border: none;
