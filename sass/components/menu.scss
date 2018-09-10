@@ -1,7 +1,7 @@
 .menu {
   &-settings {
     .list {
-      padding: rule(1);
+      padding: rule(2);
 
       ul {
         padding-top: rule(1);
@@ -24,6 +24,31 @@
 
     footer {
 
+    }
+  }
+
+  &-catalog {
+    main {
+      padding: rule(2);
+      ul {
+        li {
+          padding : rule(1) 0;
+          border: {
+            bottom : 1px solid $silver;
+          }
+
+          h2  {
+            padding : rule(1) 0;
+          }
+          a {
+            color : $primary-color;
+            padding: rule(1);
+            font : {
+              size : rule(1.5);
+            }
+          }
+        }
+      }
     }
   }
 }

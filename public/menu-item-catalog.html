@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Template </title>
+    <title> Catalog </title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <!-- Put body class  -->
-<body class="menu menu-settings">
+<body class="menu menu-catalog">
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="menu-item-settings.html"> settings</a>
@@ -32,41 +32,31 @@
         <button class="navbar-toggler app" type="button" >
           <span  onclick="openNav()" class="navbar-toggler-icon">&#9776;</span>
         </button>
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="#">Catalog</a>
         <span></span>
       </nav>
     </header>
 
     <main>
-      <div class="list">
-        <ul>
-          <li>
-            <a href="#"> Imprint</a>
-          </li>
-          <li>
-            <a href="privacy-policy"> Privacy Policy </a>
-          </li>
-          <li>
-            <a href="#"> Version: 1.0.0 </a>
-          </li>
-        </ul>
-      </div>
+      <ul class="catalog">
+        <li>
+          <h2> Industrial Catalog </h2>
+          <a href="#"> <i class="fas fa-download"></i> Legg_Industrial_Conveyor_Belts_Catalog.pdf</a>
+        </li>
+
+        <li>
+          <h2> Agriculture Catalog </h2>
+          <a href="#"> <i class="fas fa-download"></i> Legg_Agricultural_Catalog.pdf</a>
+        </li>
+
+        <li>
+          <h2> Legg-Wall Brochure </h2>
+          <a href="#"> <i class="fas fa-download"></i> Legg_Legg-Wall_Brochure.pdf</a>
+        </li>
+
+      </ul>
     </main>
 
-    <footer class="menu">
-      <div class="container-fluid">
-        <div class="row">
-          <button class="" onclick="resetApp()">
-            Reset App
-          </button>
-        </div>
-        <div class="row">
-          <button class="" onclick="restart()">
-            Restart
-          </button>
-        </div>
-      </div>
-    </footer>
   </div>
 
 

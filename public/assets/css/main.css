@@ -384,7 +384,7 @@ select.minimal {
   font-weight: 300; }
 
 .menu-settings .list {
-  padding: calc( 8px * 1); }
+  padding: calc( 8px * 2); }
   .menu-settings .list ul {
     padding-top: calc( 8px * 1); }
     .menu-settings .list ul li {
@@ -394,3 +394,15 @@ select.minimal {
       font-weight: 600; }
       .menu-settings .list ul li a {
         color: rgba(0, 0, 0, 0.7); }
+
+.menu-catalog main {
+  padding: calc( 8px * 2); }
+  .menu-catalog main ul li {
+    padding: calc( 8px * 1) 0;
+    border-bottom: 1px solid #ecf0f1; }
+    .menu-catalog main ul li h2 {
+      padding: calc( 8px * 1) 0; }
+    .menu-catalog main ul li a {
+      color: green;
+      padding: calc( 8px * 1);
+      font-size: calc( 8px * 1.5); }
