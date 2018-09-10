@@ -552,3 +552,17 @@ select.minimal {
   20% {
     transform: translateY(-20px);
     -webkit-transform: translateY(-20px); } }
+
+.policy .heading {
+  font-size: calc( 8px * 3);
+  font-weight: 500;
+  font-family: "Lato", sans-serif !important;
+  color: #3e8c51;
+  line-height: calc($size * 1.5);
+  padding: calc( 8px * 2); }
+
+.policy p {
+  padding: calc( 8px * 1.5) calc( 8px * 2); }
+
+.policy .b {
+  font-weight: 600; }

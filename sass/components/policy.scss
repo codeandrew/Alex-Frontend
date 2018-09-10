@@ -1,0 +1,15 @@
+.policy {
+  .heading {
+    @include font(rule(3), 500, $primary-color)
+    padding: rule(2);
+  }
+
+  p {
+    padding :rule(1.5) rule(2);
+  }
+  .b {
+    font : {
+      weight :600;
+    }
+  }
+}
