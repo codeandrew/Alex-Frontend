@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Promotions </title>
+    <title> Template </title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -16,13 +16,12 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <!-- Put body class  -->
-<body class="menu menu-promotions">
+<body class="menu menu-contact">
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="menu-item-settings.html"> settings</a>
     <a href="menu-item-catalog.html">catalog</a>
     <a href="menu-item-promotions.html">Clients</a>
-    <a href="menu-item-contact.html"> contact</a>
     <a href="/">dashboard</a>
   </div>
 
@@ -33,38 +32,75 @@
         <button class="navbar-toggler app" type="button" >
           <span  onclick="openNav()" class="navbar-toggler-icon">&#9776;</span>
         </button>
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="#">Customer Service</a>
         <span></span>
       </nav>
     </header>
 
     <main>
-      <ul class="nav nav-pills">
-        <li><a class="active" data-toggle="pill" href="#promotions">Promotions</a></li>
-        <li><a data-toggle="pill" href="#special-offers">Special Offers</a></li>
-      </ul>
+      <div class="banner">
+        <img class="circle" src="assets/images/service.png" alt="">
 
-      <div class="tab-content">
+        <ul class="pills">
+          <li>
+            <a href="#">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
 
-        <div id="promotions" class="tab-pane fade active show">
-          <ul class="catalog">
-            <li>
-              <h2> Flex-Legg </h2>
-              <a href="#"> <i class="fas fa-download"></i> </a>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <a href="#">
+              <i class="fas fa-phone"></i>
+            </a>
+          </li>
 
-        <div id="special-offers" class="tab-pane fade">
-          <ul class="catalog">
-            <li>
-              <h2> SO - Flex-Legg </h2>
-              <a href="#"> <i class="fas fa-download"></i> </a>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <a href="#">
+              <i class="fas fa-map-marker-alt"></i>
+            </a>
+          </li>
+
+        </ul>
+
       </div>
 
+      <div class="card">
+        <div class="card-body">
+          <h2>LEGG Company, Inc.</h2>
+
+          <ul class="address">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <p class="green">
+                325 East 10th Street <br>
+                Halstead, KS 67056 <br>
+                USA
+              </p>
+            </li>
+
+            <li>
+              <i class="fas fa-envelope"></i>
+              <p>halstead.sales@legg.contitech.us</p>
+            </li>
+
+            <li>
+              <i class="fas fa-phone"></i>
+              <p>+1 800 835 1003</p>
+            </li>
+
+            <li>
+              <i class="fas fa-print"></i>
+              <p> +1 316 835 3218</p>
+            </li>
+
+            <li>
+              <svg aria-hidden="true" data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"></path></svg>
+              <p class="green">www.facebook.com/leggbelting</p> </li>
+
+          </ul>
+
+        </div>
+      </div>
     </main>
 
   </div>

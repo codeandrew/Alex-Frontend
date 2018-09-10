@@ -85,7 +85,7 @@ html, body {
   text-align: center;
   margin: 0 auto; }
 
-.navbar-dark, .submit main .card {
+.navbar-dark, .submit main .card, .menu-contact .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .faded-dark-bg {
@@ -442,6 +442,58 @@ select.minimal {
     .menu-promotions .catalog li a {
       float: right;
       padding-right: calc( 8px * 2); }
+
+.menu-contact .banner {
+  height: calc( 8px * 26);
+  background-color: #222;
+  text-align: center; }
+  .menu-contact .banner .circle {
+    margin: calc( 8px * 2);
+    width: calc( 8px * 16); }
+  .menu-contact .banner .pills li {
+    display: inline-block; }
+    .menu-contact .banner .pills li a {
+      padding: calc( 8px * 1) calc( 8px * 4);
+      background-color: green;
+      color: white;
+      border-radius: calc( 8px * 1);
+      margin: calc( 8px * 1);
+      font-size: calc( 8px * 2.5); }
+
+.menu-contact .card {
+  margin: calc( 8px * 2); }
+
+.menu-contact h2 {
+  font-size: calc( 8px * 2.5);
+  font-weight: 500;
+  font-family: "Lato", sans-serif !important;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: calc($size * 1.5); }
+
+.menu-contact .address li {
+  padding: calc( 8px * 1) 0; }
+  .menu-contact .address li:first-child svg {
+    font-size: calc( 8px * 3);
+    margin-top: calc( 8px * 1);
+    vertical-align: top; }
+  .menu-contact .address li svg, .menu-contact .address li p {
+    display: inline-block; }
+  .menu-contact .address li svg {
+    vertical-align: middle; }
+  .menu-contact .address li p {
+    margin-left: calc( 8px * 2);
+    font-size: calc( 8px * 1.5);
+    font-weight: 500;
+    font-family: "Lato", sans-serif !important;
+    color: #a0a0a0;
+    line-height: calc($size * 1.5); }
+
+.green {
+  font-size: calc( 8px * 1.5);
+  font-weight: 500;
+  font-family: "Lato", sans-serif !important;
+  color: green !important;
+  line-height: calc($size * 1.5); }
 
 .menu-catalog main ul li, .menu-promotions .catalog li {
   padding: calc( 8px * 1) 0;

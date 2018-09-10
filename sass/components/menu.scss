@@ -117,6 +117,72 @@
       }
     }
   }
+
+  &-contact{
+    .banner {
+      height: rule(26);
+      background-color: $dark;
+      text-align: center;
+
+      .circle {
+        margin: rule(2) ;
+        width : rule(16);
+      }
+
+      .pills {
+        li {
+          display: inline-block;
+
+          a {
+            padding: rule(1) rule(4);
+            background-color: $primary-color;
+            color : white;
+            border-radius: rule(1);
+            margin: rule(1);
+            font-size: rule(2.5)
+          }
+        }
+      }
+    }
+
+    .card {
+      margin: rule(2);
+      @extend %shadow;
+    }
+    h2  {
+      @include font(rule(2.5), 500)
+    }
+
+    .address {
+      li {
+        padding: rule(1) 0;
+
+        &:first-child svg {
+          font-size: rule(3);
+          margin-top: rule(1);
+          vertical-align: top;
+        }
+
+        svg, p {
+          display: inline-block;
+        }
+        svg {
+          vertical-align: middle;
+        }
+
+        p {
+          margin-left:  rule(2);
+          @include font(rule(1.5), 500, $light-gray);
+        }
+      }
+    }
+
+  }
+
+}
+
+.green {
+  @include font(rule(1.5), 500, $primary-color !important);
 }
 
 %list {
