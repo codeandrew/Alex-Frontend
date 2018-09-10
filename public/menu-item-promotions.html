@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Promotions </title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Jquery CDN  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Font Awesome JS CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<!-- Put body class  -->
+<body class="menu menu-promotions">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="menu-item-settings.html"> settings</a>
+    <a href="menu-item-catalog.html">catalog</a>
+    <a href="menu-item-promotions.html">Clients</a>
+    <a href="/">dashboard</a>
+  </div>
+
+  <div class="app">
+
+    <header>
+      <nav class="navbar">
+        <button class="navbar-toggler app" type="button" >
+          <span  onclick="openNav()" class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+        <span></span>
+      </nav>
+    </header>
+
+    <main>
+      <ul class="nav nav-pills">
+        <li><a class="active" data-toggle="pill" href="#promotions">Promotions</a></li>
+        <li><a data-toggle="pill" href="#special-offers">Special Offers</a></li>
+      </ul>
+
+      <div class="tab-content">
+
+        <div id="promotions" class="tab-pane fade active show">
+          <ul class="catalog">
+            <li>
+              <h2> Flex-Legg </h2>
+              <a href="#"> <i class="fas fa-download"></i> </a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="special-offers" class="tab-pane fade">
+          <ul class="catalog">
+            <li>
+              <h2> SO - Flex-Legg </h2>
+              <a href="#"> <i class="fas fa-download"></i> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+
+
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

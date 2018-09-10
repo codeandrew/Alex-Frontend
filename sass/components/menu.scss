@@ -32,10 +32,7 @@
       padding: rule(2);
       ul {
         li {
-          padding : rule(1) 0;
-          border: {
-            bottom : 1px solid $silver;
-          }
+          @extend %list;
 
           h2  {
             padding : rule(1) 0;
@@ -50,5 +47,89 @@
         }
       }
     }
+  }
+
+  &-promotions {
+    ul.nav-pills {
+      @include center-flex;
+      padding: rule(3) 0 rule(2);
+      li {
+        padding : 0 !important;
+        border: none;
+
+        a {
+          padding : rule(1) rule(4) !important;
+          @extend %anchor;
+          border: {
+            color : $primary-color;
+            top : 1px solid $primary-color;
+            bottom : 1px solid $primary-color;
+          }
+        }
+
+        & a.active {
+          background-color: $primary-color;
+          color: white;
+          // border: {
+          //   color : $primary-color;
+          //   top : 1px solid ;
+          //   bottom : 1px solid ;
+          // }
+        }
+
+        &:first-child a {
+          border : {
+            left: 1px solid $primary-color;
+            top-left-radius : rule(1);
+            bottom-left-radius : rule(1);
+          }
+        }
+        &:last-child a {
+          border : {
+            right: 1px solid $primary-color;
+            top-right-radius : rule(1);
+            bottom-right-radius : rule(1);
+          }
+        }
+
+      }
+    }
+
+    .catalog {
+      padding : rule(1) 0;
+      li {
+        overflow: auto;
+        clear: both;
+        @extend %list;
+
+        padding : rule(2) 0 !important;
+        border-top: 1px solid $silver;
+
+        h2 {
+          float: left;
+          padding-left: rule(2);
+        }
+        a {
+          float : right ;
+          padding-right: rule(2);
+          @extend %anchor;
+        }
+      }
+    }
+  }
+}
+
+%list {
+  padding : rule(1) 0;
+  border: {
+    bottom : 1px solid $silver;
+  }
+
+}
+
+%anchor {
+  color : $primary-color;
+  &:hover, &:focus {
+    text-decoration: none;
   }
 }

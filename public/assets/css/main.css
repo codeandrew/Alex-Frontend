@@ -397,12 +397,57 @@ select.minimal {
 
 .menu-catalog main {
   padding: calc( 8px * 2); }
-  .menu-catalog main ul li {
-    padding: calc( 8px * 1) 0;
-    border-bottom: 1px solid #ecf0f1; }
-    .menu-catalog main ul li h2 {
-      padding: calc( 8px * 1) 0; }
-    .menu-catalog main ul li a {
-      color: green;
-      padding: calc( 8px * 1);
-      font-size: calc( 8px * 1.5); }
+  .menu-catalog main ul li h2 {
+    padding: calc( 8px * 1) 0; }
+  .menu-catalog main ul li a {
+    color: green;
+    padding: calc( 8px * 1);
+    font-size: calc( 8px * 1.5); }
+
+.menu-promotions ul.nav-pills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: calc( 8px * 3) 0 calc( 8px * 2); }
+  .menu-promotions ul.nav-pills li {
+    padding: 0 !important;
+    border: none; }
+    .menu-promotions ul.nav-pills li a {
+      padding: calc( 8px * 1) calc( 8px * 4) !important;
+      border-color: green;
+      border-top: 1px solid green;
+      border-bottom: 1px solid green; }
+    .menu-promotions ul.nav-pills li a.active {
+      background-color: green;
+      color: white; }
+    .menu-promotions ul.nav-pills li:first-child a {
+      border-left: 1px solid green;
+      border-top-left-radius: calc( 8px * 1);
+      border-bottom-left-radius: calc( 8px * 1); }
+    .menu-promotions ul.nav-pills li:last-child a {
+      border-right: 1px solid green;
+      border-top-right-radius: calc( 8px * 1);
+      border-bottom-right-radius: calc( 8px * 1); }
+
+.menu-promotions .catalog {
+  padding: calc( 8px * 1) 0; }
+  .menu-promotions .catalog li {
+    overflow: auto;
+    clear: both;
+    padding: calc( 8px * 2) 0 !important;
+    border-top: 1px solid #ecf0f1; }
+    .menu-promotions .catalog li h2 {
+      float: left;
+      padding-left: calc( 8px * 2); }
+    .menu-promotions .catalog li a {
+      float: right;
+      padding-right: calc( 8px * 2); }
+
+.menu-catalog main ul li, .menu-promotions .catalog li {
+  padding: calc( 8px * 1) 0;
+  border-bottom: 1px solid #ecf0f1; }
+
+.menu-promotions ul.nav-pills li a, .menu-promotions .catalog li a {
+  color: green; }
+  .menu-promotions ul.nav-pills li a:hover, .menu-promotions .catalog li a:hover, .menu-promotions ul.nav-pills li a:focus, .menu-promotions .catalog li a:focus {
+    text-decoration: none; }
