@@ -146,7 +146,7 @@ footer.menu .row span, footer.menu .row a, footer.menu .row button {
   background-color: #000 !important; }
 
 .navbar {
-  background-color: green; }
+  background-color: #3e8c51; }
   .navbar a, .navbar .navbar-toggler {
     color: white; }
   .navbar .app span {
@@ -159,7 +159,7 @@ footer.menu .row span, footer.menu .row a, footer.menu .row button {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: green;
+  background-color: #3e8c51;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px; }
@@ -186,7 +186,7 @@ footer.menu .row span, footer.menu .row a, footer.menu .row button {
     font-size: calc( 8px * 2); } }
 
 footer.form {
-  background-color: green;
+  background-color: #3e8c51;
   height: calc( 8px * 7); }
   footer.form .container-fluid {
     height: 100%; }
@@ -205,7 +205,7 @@ footer.form {
         color: white; }
 
 footer.menu {
-  background-color: green;
+  background-color: #3e8c51;
   height: calc( 8px * 14); }
   footer.menu .container-fluid {
     height: 100%; }
@@ -223,8 +223,8 @@ footer.menu {
       height: calc( 8px * 7);
       width: 100%;
       text-align: center;
-      border-top: 1px solid green;
-      border-bottom: 1px solid green; }
+      border-top: 1px solid #3e8c51;
+      border-bottom: 1px solid #3e8c51; }
       footer.menu .row span:hover, footer.menu .row a:hover, footer.menu .row button:hover {
         color: red !important;
         border-top: 1px solid red;
@@ -335,7 +335,7 @@ footer.menu {
       display: flex;
       justify-content: center;
       align-items: center;
-      color: green;
+      color: #3e8c51;
       border: 0.5px solid #ecf0f1; }
       .form .modal-footer .row .col:first-child {
         border-bottom-left-radius: calc( 8px * 2); }
@@ -370,7 +370,7 @@ select.minimal {
   border-color: #eee;
   border-radius: 0; }
   select.minimal:focus {
-    border-color: green; }
+    border-color: #3e8c51; }
 
 .form-3-overview .camera, .form2-3-application .camera {
   position: absolute;
@@ -400,7 +400,7 @@ select.minimal {
   .menu-catalog main ul li h2 {
     padding: calc( 8px * 1) 0; }
   .menu-catalog main ul li a {
-    color: green;
+    color: #3e8c51;
     padding: calc( 8px * 1);
     font-size: calc( 8px * 1.5); }
 
@@ -414,18 +414,18 @@ select.minimal {
     border: none; }
     .menu-promotions ul.nav-pills li a {
       padding: calc( 8px * 1) calc( 8px * 4) !important;
-      border-color: green;
-      border-top: 1px solid green;
-      border-bottom: 1px solid green; }
+      border-color: #3e8c51;
+      border-top: 1px solid #3e8c51;
+      border-bottom: 1px solid #3e8c51; }
     .menu-promotions ul.nav-pills li a.active {
-      background-color: green;
+      background-color: #3e8c51;
       color: white; }
     .menu-promotions ul.nav-pills li:first-child a {
-      border-left: 1px solid green;
+      border-left: 1px solid #3e8c51;
       border-top-left-radius: calc( 8px * 1);
       border-bottom-left-radius: calc( 8px * 1); }
     .menu-promotions ul.nav-pills li:last-child a {
-      border-right: 1px solid green;
+      border-right: 1px solid #3e8c51;
       border-top-right-radius: calc( 8px * 1);
       border-bottom-right-radius: calc( 8px * 1); }
 
@@ -454,7 +454,7 @@ select.minimal {
     display: inline-block; }
     .menu-contact .banner .pills li a {
       padding: calc( 8px * 1) calc( 8px * 4);
-      background-color: green;
+      background-color: #3e8c51;
       color: white;
       border-radius: calc( 8px * 1);
       margin: calc( 8px * 1);
@@ -492,7 +492,7 @@ select.minimal {
   font-size: calc( 8px * 1.5);
   font-weight: 500;
   font-family: "Lato", sans-serif !important;
-  color: green !important;
+  color: #3e8c51 !important;
   line-height: calc($size * 1.5); }
 
 .menu-catalog main ul li, .menu-promotions .catalog li {
@@ -500,6 +500,6 @@ select.minimal {
   border-bottom: 1px solid #ecf0f1; }
 
 .menu-promotions ul.nav-pills li a, .menu-promotions .catalog li a {
-  color: green; }
+  color: #3e8c51; }
   .menu-promotions ul.nav-pills li a:hover, .menu-promotions .catalog li a:hover, .menu-promotions ul.nav-pills li a:focus, .menu-promotions .catalog li a:focus {
     text-decoration: none; }
