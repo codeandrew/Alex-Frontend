@@ -32,7 +32,7 @@ const menuItems = [
   {
     menu : 'File a Claim',
     icon : 'fa fa-newspaper',
-    link : 'index.html'
+    link : 'form2-1-contact-data.html'
   },
   {
     menu : 'Setting',
