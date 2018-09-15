@@ -169,7 +169,15 @@ nav {
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  transition: 0.5s; }
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column; }
+  .sidenav ul {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto; }
+  .sidenav .footer {
+    padding-bottom: calc( 8px * 2); }
   .sidenav .title {
     padding: calc( 8px * 2);
     background-color: #3e8c51;

@@ -52,7 +52,6 @@ const nav = {
 }
 
 const list = menuItems.map((x) => {
-  let li = document.createElement("LI")
   return (
     `<li>
       <a href="${x.link}">
