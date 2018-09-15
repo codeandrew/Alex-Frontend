@@ -275,6 +275,12 @@ footer.menu {
     justify-content: center;
     align-items: center;
     flex-direction: column; }
+    .dashboard main .services .col a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: rgba(0, 0, 0, 0.7); }
     .dashboard main .services .col i, .dashboard main .services .col svg {
       color: green;
       margin-bottom: calc( 8px * 1); }

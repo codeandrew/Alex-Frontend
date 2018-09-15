@@ -21,9 +21,16 @@
         @include center-flex;
         flex-direction: column;
 
+        a {
+          @include center-flex;
+          flex-direction: column;
+          color : $primary-font-color;
+        }
+
         i, svg {
           color : $secondary-font-color;
           margin-bottom: rule(1);
+
         }
       }
     }
