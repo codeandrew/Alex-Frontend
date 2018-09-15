@@ -258,7 +258,7 @@ footer.menu {
         border-bottom: 1px solid red; }
 
 .dashboard main .banner {
-  height: calc( 8px * 25);
+  height: calc( 8px * 23);
   width: 100%;
   display: block; }
   .dashboard main .banner img {
@@ -268,7 +268,7 @@ footer.menu {
 .dashboard main .services {
   color: rgba(0, 0, 0, 0.7); }
   .dashboard main .services .col {
-    height: calc( 8px * 16);
+    height: calc( 8px * 14);
     border: 1px solid;
       border-color: #eee;
     display: flex;

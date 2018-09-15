@@ -1,7 +1,7 @@
 .dashboard{
   main {
     .banner{
-      height: rule(25);
+      height: rule(23);
       width: 100%;
       display: block;
 
@@ -14,7 +14,7 @@
     .services {
       color : $primary-font-color;
       .col {
-        height : rule(16);
+        height : rule(14);
         border : 1px solid{
           color : $gray;
         }
