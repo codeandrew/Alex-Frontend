@@ -36,6 +36,9 @@
     }
   }
 }
+nav {
+  height : rule(7);
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -43,18 +46,38 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: $primary-color;
+    background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+
+    .title {
+      padding: rule(2);
+      background-color: $primary-color;
+      text-align: center;
+      color: white;
+      font-size: rule(2.5);
+    }
+
+    ul {
+      background-color: white;
+      padding-left: rule(2);
+      font-size: 1px;
+    }
 
     a {
-      padding: 8px 8px 8px 32px;
+      padding: rule(1) 0;
       text-decoration: none;
-      font-size: 25px;
-      color: white;
+      font-size: rule(2);
+      color: $primary-font-color;
       display: block;
       transition: 0.3s;
+      border-bottom: 1px solid $silver;
+
+      svg {
+        margin-right: rule(1);
+        padding-right: rule(.5);
+        color: $primary-color;
+      }
 
       &:hover {
         color: #f1f1f1;
@@ -68,6 +91,11 @@
       font-size: 36px;
       margin-left: 50px;
     }
+}
+.fa-male {
+  padding-right: 0 !important;
+  padding-left: 2px;
+  margin-right: 6px !important;
 }
 
 @media screen and (max-height: 450px) {

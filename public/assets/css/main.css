@@ -157,6 +157,9 @@ footer.menu .row span, footer.menu .row a, footer.menu .row button {
   .navbar .app span {
     padding-top: calc( 8px * 0.4); }
 
+nav {
+  height: calc( 8px * 7); }
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -164,17 +167,31 @@ footer.menu .row span, footer.menu .row a, footer.menu .row button {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #3e8c51;
+  background-color: white;
   overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px; }
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
+  transition: 0.5s; }
+  .sidenav .title {
+    padding: calc( 8px * 2);
+    background-color: #3e8c51;
+    text-align: center;
     color: white;
+    font-size: calc( 8px * 2.5); }
+  .sidenav ul {
+    background-color: white;
+    padding-left: calc( 8px * 2);
+    font-size: 1px; }
+  .sidenav a {
+    padding: calc( 8px * 1) 0;
+    text-decoration: none;
+    font-size: calc( 8px * 2);
+    color: rgba(0, 0, 0, 0.7);
     display: block;
-    transition: 0.3s; }
+    transition: 0.3s;
+    border-bottom: 1px solid #ecf0f1; }
+    .sidenav a svg {
+      margin-right: calc( 8px * 1);
+      padding-right: calc( 8px * 0.5);
+      color: #3e8c51; }
     .sidenav a:hover {
       color: #f1f1f1; }
   .sidenav .closebtn {
@@ -183,6 +200,11 @@ footer.menu .row span, footer.menu .row a, footer.menu .row button {
     right: 25px;
     font-size: 36px;
     margin-left: 50px; }
+
+.fa-male {
+  padding-right: 0 !important;
+  padding-left: 2px;
+  margin-right: 6px !important; }
 
 @media screen and (max-height: 450px) {
   .sidenav {
@@ -234,9 +256,6 @@ footer.menu {
         color: red !important;
         border-top: 1px solid red;
         border-bottom: 1px solid red; }
-
-.dashboard .sidenav {
-  background-color: black !important; }
 
 .dashboard main .banner {
   height: calc( 8px * 25);
