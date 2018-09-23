@@ -49,10 +49,18 @@ nav {
     background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
 
     ul {
+      -webkit-box-flex-grow: 1;
+      -moz-box-flex-grow: 1;
+      -webkit-flex-grow: 1;
+      -ms-flex-grow: 1;
       flex-grow: 1;
       flex-shrink: 1;
       flex-basis: auto;

@@ -3,6 +3,10 @@
 $font-base : 8px;
 
 @mixin center-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -21,6 +21,10 @@
 
 .splash-screen {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   .container{
     .splash {
       height : rule(14);

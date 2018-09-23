@@ -40,6 +40,10 @@ table {
   border-spacing: 0; }
 
 .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -97,7 +101,11 @@ html, body {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)); }
 
 .splash-screen {
-  display: flex; }
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox; }
   .splash-screen .container .splash {
     height: calc( 8px * 14);
     width: auto;
@@ -170,9 +178,17 @@ nav {
   background-color: white;
   overflow-x: hidden;
   transition: 0.5s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column; }
   .sidenav ul {
+    -webkit-box-flex-grow: 1;
+    -moz-box-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto; }
@@ -227,9 +243,17 @@ footer.form {
     height: 100%; }
   footer.form .row {
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     height: 100%; }
     footer.form .row .col {
       height: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -246,11 +270,19 @@ footer.menu {
     height: 100%; }
   footer.menu .row {
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     align-items: center;
     height: calc( 8px * 7); }
     footer.menu .row span, footer.menu .row a, footer.menu .row button {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -279,11 +311,19 @@ footer.menu {
     height: calc( 8px * 14);
     border: 1px solid;
       border-color: #eee;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; }
     .dashboard main .services .col a {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -366,10 +406,18 @@ footer.menu {
   padding: 0; }
   .form .modal-footer .row {
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     height: calc( 8px * 6);
     border-bottom-left-radius: calc( 8px * 2);
     border-bottom-right-radius: calc( 8px * 2); }
     .form .modal-footer .row .col {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -443,6 +491,10 @@ select.minimal {
     font-size: calc( 8px * 1.5); }
 
 .menu-promotions ul.nav-pills {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -544,6 +596,10 @@ select.minimal {
 
 .progress-page {
   background-color: #a9a9a9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center; }
